@@ -1,0 +1,67 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+/*************** ADD CUSTOM CSS HERE.   ***************/
+body {
+  color: #595959; }
+
+.text-primary {
+  color: var(--primary-color) !important; }
+
+.text-primary-1 {
+  color: #ffeb9c !important; }
+
+#top-bar a {
+  color: #595959;
+  font-size: .8125rem; }
+  #top-bar a:hover {
+    color: var(--primary-color);
+    text-decoration: underline; }
+
+.nav-dropdown-simple {
+  border: 0; }
+
+.nav-dropdown-has-arrow li.has-dropdown:before {
+  border-width: 8px;
+  margin-left: -8px; }
+
+.nav > li > a, .nav-dropdown > li > a, .nav-column > li > a {
+  color: #666666; }
+
+.header-main-block {
+  font-size: 14px; }
+  .header-main-block h3 {
+    font-weight: 500;
+    font-size: 12px; }
+
+.section-title-main {
+  color: var(--primary-color); }
+
+.blog-posts-home .post-title {
+  font-weight: 500; }
+.blog-posts-home .is-divider {
+  visibility: hidden; }
+.blog-posts-home .box-image {
+  box-shadow: 0 0 3.92px 0.08px rgba(0, 0, 0, 0.16); }
+  .blog-posts-home .box-image[style*="-radius"] {
+    -webkit-mask-image: none; }
+
+.footer-2 .block_widget:nth-child(3) {
+  display: flex;
+  flex-direction: column; }
+  .footer-2 .block_widget:nth-child(3) iframe {
+    order: 1; }
+  .footer-2 .block_widget:nth-child(3) .menu-secondary-container {
+    order: 2; }
+  .footer-2 .block_widget:nth-child(3) .menu .menu-item {
+    border: none;
+    font-size: 14px; }
+
+@media only screen and (max-width: 48em) {
+  /*************** ADD MOBILE ONLY CSS HERE  ***************/ }
+
+/*# sourceMappingURL=style.css.map */

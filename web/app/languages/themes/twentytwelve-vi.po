@@ -1,0 +1,342 @@
+# Translation of Themes - Twenty Twelve in Vietnamese
+# This file is distributed under the same license as the Themes - Twenty Twelve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-02 05:14:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Themes - Twenty Twelve\n"
+
+#. translators: %s: The post title.
+#: comments.php:35
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Một bình luận về &ldquo;%s&rdquo;"
+
+#: functions.php:94
+msgid "White"
+msgstr "Trắng"
+
+#: functions.php:89
+msgid "Light Gray"
+msgstr "Xám nhạt"
+
+#: functions.php:84
+msgid "Medium Gray"
+msgstr "Xám vừa"
+
+#: functions.php:79
+msgid "Dark Gray"
+msgstr "Xám đậm"
+
+#: functions.php:74
+msgid "Blue"
+msgstr "Xanh biển"
+
+#. translators: %s: Tag title.
+#: tag.php:24
+msgid "Tag Archives: %s"
+msgstr "Lưu trữ cho từ khóa: %s"
+
+#: single.php:25
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:24
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: search.php:46
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Rất tiếc, không có kết quả nào khớp với các tiêu chí của bạn. Xin vui lòng thử lại với những từ khóa khác."
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+#. translators: %s: Post editor URL.
+#: index.php:49
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Bạn đã sẵn sàng xuất bản bài viết đầu tiên chưa? <a href=\"%s\">Get started here</a>."
+
+#: index.php:42
+msgid "No posts to display"
+msgstr "Không có bài viết nào để hiển thị"
+
+#: image.php:47
+msgid "Next &rarr;"
+msgstr "Tiếp theo &rarr;"
+
+#: image.php:46
+msgid "&larr; Previous"
+msgstr "&larr; Trước"
+
+#. translators: 1: Date, 2: Date, 3: Attachment URL, 4: Image width in pixels,
+#. 5: Image height in pixels, 6: Post parent permalink, 7: Post parent title,
+#. 8: Post parent title.
+#: image.php:31
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: header.php:45
+msgid "Skip to content"
+msgstr "Chuyển đến nội dung"
+
+#: header.php:44
+msgid "Menu"
+msgstr "Trình đơn"
+
+#. translators: 3: Date, 4: Author display name.
+#: functions.php:530
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Mục này được đăng tải trên %3$s<span class=\"by-author\"> by %4$s</span>."
+
+#. translators: 1: Category name, 3: Date, 4: Author display name.
+#: functions.php:527
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Mục này được đăng tải tại %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+
+#. translators: 1: Category name, 2: Tag name, 3: Date, 4: Author display name.
+#: functions.php:524
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Mục này được đăng tải tại %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+
+#. translators: %s: Author display name.
+#: functions.php:518
+msgid "View all posts by %s"
+msgstr "Xem tất cả bài viết bằng %s"
+
+#. translators: Used between list items, there is a space after the comma.
+#: functions.php:501 functions.php:504
+msgid ", "
+msgstr ", "
+
+#: functions.php:473
+msgid "Reply"
+msgstr "Trả lời"
+
+#: functions.php:452
+msgid "Your comment is awaiting moderation."
+msgstr "Bình luận của bạn đang đợi phản hồi."
+
+#. translators: 1: Date, 2: Time.
+#: functions.php:444
+msgid "%1$s at %2$s"
+msgstr "%1$s lúc %2$s"
+
+#: functions.php:437
+msgid "Post author"
+msgstr "Tác giả bài viết"
+
+#: functions.php:421
+msgid "(Edit)"
+msgstr "( Chỉnh sửa)"
+
+#: functions.php:421
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:395
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Bài viết mới hơn <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:394
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Bài viết cũ hơn"
+
+#: functions.php:393 single.php:23
+msgid "Post navigation"
+msgstr "Điều hướng bài viết"
+
+#: functions.php:370
+msgid "Second Front Page Widget Area"
+msgstr "Vùng widget trang chủ thứ 2"
+
+#: functions.php:360 functions.php:372
+msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
+msgstr "Xuất hiện khi sử dụng mẫu trang chủ tự chọn với một trang được thiết lập như trang số liệu chủ."
+
+#: functions.php:358
+msgid "First Front Page Widget Area"
+msgstr "Vùng Widget trang chủ đầu tiên"
+
+#: functions.php:348
+msgid "Appears on posts and pages except the optional Front Page template, which has its own widgets"
+msgstr "Xuất hiện trên các bài viết và các trang trừ mẫu trang chủ tự chọn với widget riêng."
+
+#: functions.php:346
+msgid "Main Sidebar"
+msgstr "Thanh bên chính"
+
+#. translators: %s: Page number.
+#: functions.php:314
+msgid "Page %s"
+msgstr "Trang %s"
+
+#: functions.php:159
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "không có bảng mã"
+
+#: functions.php:152
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "bật"
+
+#: functions.php:108
+msgid "Primary Menu"
+msgstr "Trình đơn cơ sở"
+
+#. translators: %s: WordPress
+#: footer.php:24
+msgid "Proudly powered by %s"
+msgstr "Tự hào được phát triển từ %s"
+
+#: footer.php:21
+msgid "Semantic Personal Publishing Platform"
+msgstr "Nền tảng chia sẻ bài viết cá nhân"
+
+#. translators: %s: Author display name.
+#: content.php:85
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Xem tất cả các bài viết của %s <span class=\"meta-nav\">&rarr</span>"
+
+#: content.php:16
+msgid "Featured post"
+msgstr "Bài viết nổi bật"
+
+#: content.php:50 image.php:124 content-page.php:24
+msgid "Pages:"
+msgstr "Trang:"
+
+#: index.php:63 content-none.php:17
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "Rất tiếc, không tìm thấy kết quả nào. Có lẽ tìm kiếm sẽ mang lại một bài viết có liên quan."
+
+#: index.php:59 content-none.php:13 search.php:42
+msgid "Nothing Found"
+msgstr "Không tìm thấy"
+
+#: content-link.php:15
+msgid "Link"
+msgstr "Liên kết"
+
+#: content-status.php:43 content-quote.php:26 content.php:60
+#: content-image.php:26 image.php:42 content-page.php:31 content-link.php:27
+#: functions.php:464 content-aside.php:29
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: content-status.php:40 content-quote.php:23 content.php:35
+#: content-image.php:23 content-link.php:24 content-aside.php:26
+msgid "% Replies"
+msgstr "% phản hồi"
+
+#: content-status.php:40 content-quote.php:23 content.php:35
+#: content-image.php:23 content-link.php:24 content-aside.php:26
+msgid "1 Reply"
+msgstr "1 phản hồi"
+
+#: content-status.php:40 content-quote.php:23 content.php:35
+#: content-image.php:23 content-link.php:24 content-aside.php:26
+msgid "Leave a reply"
+msgstr "Trả lời"
+
+#. translators: %s: Post title.
+#: content-status.php:11 content-quote.php:11 content-link.php:11
+#: content-aside.php:11
+msgid "Permalink to %s"
+msgstr "Liên kết cứng tới %s"
+
+#: content-status.php:34 content-quote.php:16 content.php:46
+#: content-image.php:13 content-link.php:17 content-aside.php:18
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Tiếp tục đọc <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr "Không cho phép ghi chú."
+
+#: comments.php:64
+msgid "Newer Comments &rarr;"
+msgstr "Các bình luận mới hơn&rarr;"
+
+#: comments.php:63
+msgid "&larr; Older Comments"
+msgstr "&larr; Những bình luận cũ hơn"
+
+#: comments.php:62
+msgid "Comment navigation"
+msgstr "Điều hướng bình luận"
+
+#. translators: %1$s: The number of comments. %2$s: The post title.
+#: comments.php:41
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s bình luận về &ldquo;%2$s&rdquo;"
+
+#. translators: %s: Category title.
+#: category.php:24
+msgid "Category Archives: %s"
+msgstr "Chuyên mục lưu trữ: %s"
+
+#. translators: Author display name.
+#. translators: %s: Author display name.
+#: author.php:74 content.php:77
+msgid "About %s"
+msgstr "Về %s"
+
+#. translators: Author display name.
+#: author.php:36
+msgid "Author Archives: %s"
+msgstr "Lưu trữ của tác giả: %s"
+
+#: archive.php:39
+msgid "Archives"
+msgstr "Lưu trữ"
+
+#. translators: %s: Date.
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: %s: Date.
+#: archive.php:37
+msgid "Yearly Archives: %s"
+msgstr "Lưu trữ thường niên: %s"
+
+#. translators: %s: Date.
+#: archive.php:34
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#. translators: %s: Date.
+#: archive.php:34
+msgid "Monthly Archives: %s"
+msgstr "Lưu trữ hàng tháng: %s"
+
+#. translators: %s: Date.
+#: archive.php:31
+msgid "Daily Archives: %s"
+msgstr "Lưu trữ hàng ngày: %s"
+
+#: 404.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Có lẽ chũng tôi không thể thấy những gì bạn đang tìm kiếm. Bạn có thể dùng tìm kiếm."
+
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Ngại quá nhỉ?"
+
+#. Author URI of the theme
+#: footer.php:21
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
