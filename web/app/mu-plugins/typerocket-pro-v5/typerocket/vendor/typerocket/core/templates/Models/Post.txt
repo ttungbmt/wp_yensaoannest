@@ -1,0 +1,9 @@
+<?php
+namespace {{namespace}};
+
+use TypeRocket\Models\WPPost;
+
+class {{model}} extends WPPost
+{
+    protected $postType = '{{id}}';
+}
