@@ -29,7 +29,16 @@ $webroot_dir = $root_dir . '/web';
  * Use Dotenv to set required environment variables and load .env file in root
  */
 $dotenv = Dotenv\Dotenv::createImmutable($root_dir);
-if (file_exists($root_dir . '/.env')) {
+
+$subdomain = substr_count($_SERVER['HTTP_HOST'], '.') > 1 ? substr($_SERVER['HTTP_HOST'], 0, strpos($_SERVER['HTTP_HOST'], '.')) : '';
+
+if($subdomain && in_array($subdomain, ['dev', 'development', 'staging'])){
+    $env_path = $root_dir . '/.env'.($subdomain === 'dev' ? '.development' : '.'.$subdomain);
+} else {
+    $env_path = $root_dir . '/.env';
+}
+
+if (file_exists($env_path)) {
     $dotenv->load();
     $dotenv->required(['WP_HOME', 'WP_SITEURL']);
     if (!env('DATABASE_URL')) {

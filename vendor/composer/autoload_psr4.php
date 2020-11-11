@@ -6,7 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
+    'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
     'Roots\\WPConfig\\' => array($vendorDir . '/roots/wp-config/src'),
     'Roots\\Composer\\' => array($vendorDir . '/roots/wordpress-core-installer/src'),
     'Roots\\Bedrock\\' => array($vendorDir . '/roots/bedrock-autoloader/src'),

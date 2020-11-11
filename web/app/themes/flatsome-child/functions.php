@@ -5,7 +5,6 @@ function flatsome_scripts_styles() {
     $main_style = 'flatsome-main';
 
     wp_enqueue_style('tailwind-css', 'https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css');
-    wp_enqueue_style('fontawesome-css', $uri . '/assets/css/icons/fontawesome/css/all.min.css', [$main_style]);
 }
 
 add_action( 'wp_enqueue_scripts', 'flatsome_scripts_styles' );

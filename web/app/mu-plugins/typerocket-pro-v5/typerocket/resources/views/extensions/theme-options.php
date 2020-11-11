@@ -22,6 +22,7 @@ $about = $form->fieldset('Company', 'Details about your company.', [
     $form->image('Company Logo'),
     $form->input('Company Email')->setTypeEmail(),
     $form->text('Company Phone'),
+    $form->text('Company Address'),
     $form->toggle('Company Open')->setText('Company open for business'),
     $hours,
 ]);

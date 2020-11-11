@@ -9,6 +9,12 @@ Version: 3.0
 body {
   color: #595959; }
 
+* {
+  border-style: initial; }
+
+input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea {
+  box-shadow: none; }
+
 .text-primary {
   color: var(--primary-color) !important; }
 

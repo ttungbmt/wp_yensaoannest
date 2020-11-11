@@ -21,6 +21,11 @@
 </VirtualHost>
 ```
 
+Fix Flatsome
++ \themes\flatsome\inc\builder\core\server\src\Transformers\StringToArray.php, line 79
+```$tag = isset($shortcode['tag']) ? $shortcode['tag'] : '';```
+
+
 Easy Updates Manager
 Admin Menu Editor
 Table of Contents Plus

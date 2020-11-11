@@ -3,3 +3,10 @@
    RewriteCond %{REQUEST_URI} !^web
    RewriteRule ^(.*)$ web/$1 [L]
 </IfModule>
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:yensaoannest.com
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?yensaoannest.com
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:yensaoannest.com
