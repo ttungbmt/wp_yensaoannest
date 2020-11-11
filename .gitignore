@@ -8,7 +8,7 @@
 
 # WordPress
 #web/wp
-#web/app/cache
+web/app/cache
 #web/.htaccess
 
 # Logs
